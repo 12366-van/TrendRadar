@@ -948,6 +948,7 @@ def matches_word_groups(
     if not word_groups:
         return True
 
+    title=str(title)
     title_lower = title.lower()
 
     # 过滤词检查
